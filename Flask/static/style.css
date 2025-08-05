@@ -1,0 +1,152 @@
+/* General Reset and Body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  background-color: #00bcd4;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #028090;
+}
+.nav-links .predict-page{
+  background-color: #ff5722;
+}
+
+.nav-links .predict-page:hover {
+  background-color: #e64a19;
+}
+
+/* Hero Section */
+.hero {
+  background: url('../static/performance-bg.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay-text {
+  background-color: rgba(22, 145, 222, 0);
+  color:wheat;
+  padding: 20px;
+  max-width: 80%;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.hero p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* About Page */
+.about-body{
+  background: url("../static/about-bg.jpg") center/cover no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+.about {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Form Section */
+.form-section {
+  background: url('../static/form-bg.jpg') center/cover no-repeat;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+div label{
+  display: block;
+  font-weight: bold;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 90%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Output Result Page */
+.result {
+  background: url("../static/submit-bg.jpg") center/cover no-repeat;
+  padding: 30px;
+  text-align: center;
+  min-height: 100vh;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.result h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 1.7rem;
+  color: #4315b6;
+  font-weight: bold;
+}

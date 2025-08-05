@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | Productivity ML</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="about-body">
+  <nav>
+    <span>Employee Productivity Prediction Using ML</span>
+    <div class="nav-links">
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('about') }}">About</a>
+      <a class="predict-page" href="{{ url_for('predict_page') }}">Predict</a>
+    </div>
+  </nav>
+  <section class="about">
+    <h2>About the Project</h2>
+    <p>This project aims to predict employee productivity levels using Machine Learning based on various inputs such as work hours, incentives, team, and performance history...</p>
+  </section>
+</body>
+</html>
